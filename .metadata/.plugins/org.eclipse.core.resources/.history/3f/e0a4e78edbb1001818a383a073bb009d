@@ -1,0 +1,54 @@
+package Org.Bhavya.Infosys.HRApplication.Service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import Org.Bhavya.Infosys.HRApplication.Model.Address;
+import Org.Bhavya.Infosys.HRApplication.Model.Contact;
+import Org.Bhavya.Infosys.HRApplication.Model.Employee;
+
+public class EmployeeService {
+	
+	private Address a1 = new Address("House1", "Street1", "AB115AL", "Pune", "Maharastra");
+	private Address a2 = new Address("House2", "Street2", "AB115AM", "Pune", "Maharastra");
+	private Address a3 = new Address("House3", "Street3", "AB115AN", "Pune", "Maharastra");
+	private Address a4 = new Address("House4", "Street4", "AB115AL", "Mumbai", "Maharastra");
+	private Address a5 = new Address("House5", "Street5", "AB115AO", "Mumbai", "Maharastra");
+	private Address a6 = new Address("House6", "Street6", "AB115AL", "Bangalore", "Karnataka");
+	private Address a7 = new Address("House7", "Street7", "AB115AY", "Bangalore", "Karnataka");
+	private Address a8 = new Address("House8", "Street8", "AB115AZ", "Chennai", "TN");
+	private Address a9 = new Address("House9", "Street9", "AB115AX", "Pune", "Maharastra");
+	private Address a10 = new Address("House10", "Street10", "AB115AV", "Pune", "Maharastra");
+	
+	private Contact c1 = new Contact("0800099999", "9100099999", "ABC@gmail.com");
+	private Contact c2 = new Contact("0800099998", "9100099998", "DEF@gmail.com");
+	private Contact c3 = new Contact("0800099997", "9100099997", "GHI@gmail.com");
+	private Contact c4 = new Contact("0800099996", "9100099996", "TYU@gmail.com");
+	private Contact c5 = new Contact("0800099995", "9100099995", "OPK@gmail.com");
+	private Contact c6 = new Contact("0800099994", "9100099994", "QGV@gmail.com");
+	private Contact c7 = new Contact("0800099993", "9100099993", "PLM@gmail.com");
+	private Contact c8 = new Contact("0800099992", "9100099992", "OMK@gmail.com");
+	private Contact c9 = new Contact("0800099991", "9100099991", "PLK@gmail.com");
+	private Contact c10 = new Contact("0800099990", "9100099990", "AOL@gmail.com");
+	
+	public List<Employee> getAllEmployees()
+	{
+		Employee e1 = new Employee("Emp1", "101", "FSADM", c1, a1);
+		Employee e2 = new Employee("Emp2", "102", "FSADM", c2, a2);
+		Employee e3 = new Employee("Emp3", "103", "MFG", c3, a3);
+		Employee e4 = new Employee("Emp4", "104", "FSADM", c4, a4);
+		Employee e5 = new Employee("Emp5", "105", "CICS", c5, a5);
+		Employee e6 = new Employee("Emp6", "106", "FSADM", c6, a6);
+		Employee e7 = new Employee("Emp7", "107", "MFG", c7, a7);
+		Employee e8 = new Employee("Emp8", "108", "FSADM", c8, a8);
+		Employee e9 = new Employee("Emp9", "109", "FSADM", c9, a9);
+		Employee e10 = new Employee("Emp10", "110", "CICS", c10, a10);
+		
+		List<Employee> employees= new ArrayList<>();
+		
+		
+		
+	
+	}
+	
+}

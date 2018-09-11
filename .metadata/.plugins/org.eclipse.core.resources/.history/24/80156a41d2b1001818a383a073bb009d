@@ -1,0 +1,14 @@
+package Org.Bhavya.Infosys.HRApplication.Resource;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+@Path("/employees")
+public class EmployeeResources {
+
+	@GET
+	public String getMessage()
+	{
+		return "Hello World";
+	}
+}

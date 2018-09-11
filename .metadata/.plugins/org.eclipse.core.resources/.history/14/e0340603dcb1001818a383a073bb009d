@@ -1,0 +1,22 @@
+package Org.Bhavya.Infosys.HRApplication.Resource;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import Org.Bhavya.Infosys.HRApplication.Service.EmployeeService;
+
+@Path("employees")
+public class EmployeeResources {
+	
+	EmployeeService eService = new EmployeeService();
+	
+
+	@GET
+	@Produces(MediaType.TEXT_PLAIN)
+	public List<Employee> getMessage()
+	{
+		return eService.getAllEmployees();
+	}
+}

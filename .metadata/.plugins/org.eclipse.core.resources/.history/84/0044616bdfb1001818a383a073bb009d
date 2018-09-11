@@ -1,0 +1,9 @@
+package Org.Bhavya.Infosys.HRApplication.Database;
+
+public class EmployeeDatabase {
+	
+	private static Map<Long, Employee> emps = new HashMap<>();
+	
+	
+
+}

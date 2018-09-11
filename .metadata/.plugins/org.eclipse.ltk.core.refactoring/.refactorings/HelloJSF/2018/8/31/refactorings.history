@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HelloJSF/WebContent/HelloWorld.html&apos; to &apos;HelloWorld.xhtml&apos;" description="Rename resource &apos;HelloWorld.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/HelloWorld.html" name="HelloWorld.xhtml" stamp="1533131351849" updateReferences="true"/>
+</session>

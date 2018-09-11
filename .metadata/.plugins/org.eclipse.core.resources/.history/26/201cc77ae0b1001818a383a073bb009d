@@ -1,0 +1,22 @@
+package Org.Bhavya.Infosys.HRApplication.Service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import Org.Bhavya.Infosys.HRApplication.Database.EmployeeDatabase;
+import Org.Bhavya.Infosys.HRApplication.Model.Address;
+import Org.Bhavya.Infosys.HRApplication.Model.Contact;
+import Org.Bhavya.Infosys.HRApplication.Model.Employee;
+
+public class EmployeeService {
+	
+	private Map<Long, Employee> employees = EmployeeDatabase.getEmps();
+	
+	public Employee addEmployee(Employee emp)
+	{
+		employees.put(emp.getEmpId(), emp);
+		return emp;
+	}
+	
+}

@@ -1,0 +1,5 @@
+package Org.Bhavya.Infosys.HRApplication.Exception;
+
+public class GenericExceptionMapper {
+
+}

@@ -1,0 +1,6 @@
+package Org.Bhavya.Infosys.HRApplication.Exception;
+
+public class EmployeeNotFoundException extends RuntimeException{
+
+	
+}

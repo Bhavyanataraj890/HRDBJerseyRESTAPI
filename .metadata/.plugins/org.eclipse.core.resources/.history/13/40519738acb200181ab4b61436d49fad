@@ -1,0 +1,14 @@
+package Org.Bhavya.Infosys.HRApplication.Exception;
+
+import javax.ws.rs.core.Response;
+import javax.ws.rs.ext.ExceptionMapper;
+
+public class EmployeeNotFoundExceptionMapper implements ExceptionMapper<EmployeeNotFoundException> {
+
+	@Override
+	public Response toResponse(DataNotFoundException exception) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

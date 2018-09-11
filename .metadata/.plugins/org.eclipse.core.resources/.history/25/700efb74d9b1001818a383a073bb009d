@@ -1,0 +1,36 @@
+package Org.Bhavya.Infosys.HRApplication.Model;
+
+public class Contact {
+
+	private long HomeTeleNo;
+	private long MobileNo;
+	private String Email;
+	public long getHomeTeleNo() {
+		return HomeTeleNo;
+	}
+	public void setHomeTeleNo(long homeTeleNo) {
+		HomeTeleNo = homeTeleNo;
+	}
+	public long getMobileNo() {
+		return MobileNo;
+	}
+	public void setMobileNo(long mobileNo) {
+		MobileNo = mobileNo;
+	}
+	public String getEmail() {
+		return Email;
+	}
+	public void setEmail(String email) {
+		Email = email;
+	}
+	public Contact() {
+
+	}
+	public Contact(long homeTeleNo, long mobileNo, String email) {
+		super();
+		HomeTeleNo = homeTeleNo;
+		MobileNo = mobileNo;
+		Email = email;
+	}
+	
+}

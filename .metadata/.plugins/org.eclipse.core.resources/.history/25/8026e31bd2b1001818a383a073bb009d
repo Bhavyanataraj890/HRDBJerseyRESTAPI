@@ -1,0 +1,9 @@
+package Org.Bhavya.Infosys.HRApplication.Resource;
+
+public class EmployeeResources {
+
+	public String getMessage()
+	{
+		return "Hello World";
+	}
+}
